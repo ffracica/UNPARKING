@@ -1,0 +1,51 @@
+module switch(clk, led, pasignado, count, swws);
+
+input clk;
+input swws;
+input [3:0]pasignado;
+input [5:0]count;
+
+output reg led;
+
+always@(posedge clk)begin
+
+
+if(count[0] == 0 && pasignado == 4'b0000)
+	led = 0;
+if(count[1] == 0 && pasignado == 4'b0001)
+	led = 0;
+if(count[2] == 0 && pasignado == 4'b0010)
+	led = 0;
+if(count[3] == 0 && pasignado == 4'b0011)
+	led = 0;
+if(count[4] == 0 && pasignado == 4'b0100)
+	led = 0;
+if(count[5] == 0 && pasignado == 4'b0101)
+	led = 0;
+
+
+
+//case(pasignado)
+//		4'b0000: l = 6'b000000;
+//		4'b0001: l = 6'b000001;
+//		4'b0010: l = 6'b000010;
+//		4'b0011: l = 6'b000100;
+//		4'b0100: l = 6'b001000;
+//		4'b0101: l = 6'b010000;
+//		4'b0110: l = 6'b100000;
+//		default
+//			l = 6'b000000;
+//	endcase
+//end
+//
+//else
+//	l = 6'b000000;
+
+
+
+
+
+end
+
+
+endmodule 

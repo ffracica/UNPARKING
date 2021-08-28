@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Aug 27 00:50:51 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : UNPARKING
+Top-level Entity Name : UNPARKING
+Family : Cyclone IV E
+Device : EP4CE10E22C8
+Timing Models : Final
+Total logic elements : 2,100 / 10,320 ( 20 % )
+    Total combinational functions : 2,079 / 10,320 ( 20 % )
+    Dedicated logic registers : 513 / 10,320 ( 5 % )
+Total registers : 513
+Total pins : 36 / 92 ( 39 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

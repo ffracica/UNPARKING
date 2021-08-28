@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LCD_EN",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RS",
+					"strict" : false
+				},
+				{
+					"name" : "filas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "filas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "m[0]",
+					"strict" : false
+				},
+				{
+					"name" : "m[1]",
+					"strict" : false
+				},
+				{
+					"name" : "l[0]",
+					"strict" : false
+				},
+				{
+					"name" : "l[1]",
+					"strict" : false
+				},
+				{
+					"name" : "l[2]",
+					"strict" : false
+				},
+				{
+					"name" : "l[3]",
+					"strict" : false
+				},
+				{
+					"name" : "l[4]",
+					"strict" : false
+				},
+				{
+					"name" : "l[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "s",
+					"strict" : false
+				},
+				{
+					"name" : "count[4]",
+					"strict" : false
+				},
+				{
+					"name" : "count[5]",
+					"strict" : false
+				},
+				{
+					"name" : "count[1]",
+					"strict" : false
+				},
+				{
+					"name" : "count[3]",
+					"strict" : false
+				},
+				{
+					"name" : "count[2]",
+					"strict" : false
+				},
+				{
+					"name" : "count[0]",
+					"strict" : false
+				},
+				{
+					"name" : "c",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "columnas[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

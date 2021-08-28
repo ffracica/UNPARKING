@@ -1,0 +1,53 @@
+module factura(clk, cancelo, counterp, dmin, umin, dseg, useg);
+
+input clk;
+input [20:0]counterp;
+input cancelo;
+output reg [3:0]dmin;
+output reg [3:0]umin;
+output reg [3:0]dseg;
+output reg [3:0]useg;
+
+
+reg [4:0]tiempomin;
+reg [5:0]tiemposeg;
+reg [20:0]totalseg;
+
+reg i;
+
+always@(posedge clk)begin
+
+if(counterp != 0 && i == 0)begin
+	totalseg = counterp/'d10;
+	i = 1;
+end
+if(cancelo)begin
+	i = 0;
+	totalseg = 0;
+	end
+
+if(totalseg >= 'd60)begin
+	tiempomin = tiempomin + 1;
+	totalseg = totalseg - 'd60;
+end
+else
+	tiemposeg = totalseg;
+	
+if(tiempomin >= 'd10)begin
+	dmin = dmin + 1;
+	tiempomin = tiempomin - 'd10;
+end
+else
+	umin = tiempomin;
+	
+if(tiemposeg >= 'd10)begin
+	dseg = dseg + 1;
+	tiemposeg = tiemposeg - 'd10;
+end
+else
+	useg = tiemposeg;
+
+
+
+end
+endmodule 
